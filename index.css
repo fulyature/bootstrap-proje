@@ -16,3 +16,9 @@
 .carousel-item {
   max-height: calc(100vh - 126px);
 }
+.carousel-caption h5 {
+  color: var(--pink);
+  font-size: 5.4rem;
+  text-shadow: 5px 5px 8px rgb(224, 223, 223);
+  font-weight: 600;
+}
