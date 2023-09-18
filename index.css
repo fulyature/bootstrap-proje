@@ -13,3 +13,6 @@
 .navbar .nav-link:hover {
   color: var(--pink);
 }
+.carousel-item {
+  max-height: calc(100vh - 126px);
+}
