@@ -1,0 +1,15 @@
+:root {
+  --pink: #ef6e91;
+}
+
+.navbar .navbar-nav {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.navbar .nav-link {
+  transition: color 0.7s;
+}
+.navbar .nav-link:hover {
+  color: var(--pink);
+}
