@@ -43,3 +43,7 @@
   width: 3rem !important;
   height: 0.6rem !important;
 }
+main section h2 {
+  color: var(--pink);
+  font-weight: 600 !important;
+}
