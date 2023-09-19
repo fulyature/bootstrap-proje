@@ -22,3 +22,24 @@
   text-shadow: 5px 5px 8px rgb(224, 223, 223);
   font-weight: 600;
 }
+.carousel-caption p {
+  text-shadow: 3px 3px 3px rgb(23, 22, 22);
+  font-weight: 600;
+  font-size: 3rem;
+  color: #f6c8dd;
+}
+.carousel-caption .btn {
+  width: 7rem;
+}
+.carousel-caption {
+  bottom: 5rem;
+}
+.carousel-indicators {
+  gap: 0.8rem;
+}
+/* bootstrap tarafından verilmiş bir background old. için onu ezmemiz gerek. */
+.carousel-indicators button {
+  background-color: var(--pink) !important;
+  width: 3rem !important;
+  height: 0.6rem !important;
+}
