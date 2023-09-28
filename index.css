@@ -61,3 +61,6 @@ section#instructors i {
 section#instructors i:hover {
   opacity: 0.5;
 }
+section#student h2 {
+  color: var(--pink);
+}
