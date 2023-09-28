@@ -47,3 +47,17 @@ main section h2 {
   color: var(--pink);
   font-weight: 600 !important;
 }
+section#instructors .card {
+  transition: all 0.5s;
+  cursor: pointer;
+}
+section#instructors .card:hover {
+  transform: scale(1.03);
+}
+section#instructors i {
+  transition: opacity 0.6s;
+}
+
+section#instructors i:hover {
+  opacity: 0.5;
+}
