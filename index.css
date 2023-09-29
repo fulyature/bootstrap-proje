@@ -64,3 +64,10 @@ section#instructors i:hover {
 section#student h2 {
   color: var(--pink);
 }
+
+.nav-tabs .nav-link.active {
+  background-color: var(--pink);
+}
+.nav-tabs .nav-link {
+  color: white;
+}
